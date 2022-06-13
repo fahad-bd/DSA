@@ -91,9 +91,7 @@ void IO(){
     #endif
 }
 
-void solve(){
-
-}
+void solve();
 
 //main 
 int main()
@@ -101,6 +99,9 @@ int main()
     IO();
     //test 
     solve();
-
     return 0;
+}
+
+void solve(){
+    
 }
