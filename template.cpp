@@ -17,7 +17,7 @@ const ll MAX = 2e5+5;
 #define fi             first
 #define se             second 
 #define all(x)         x.begin(), x.end()
-#define rall(x)        x.end(), x.begin()
+#define rall(x)        x.rbegin(), x.rend()
 #define sz(x)          ((int)(x).size())
 #define sortall(x)     sort(all(x))
 #define setbits        __builtin_popcountll //if x = 5, binary value of 5 is 101, Output: No of ones is 2.
@@ -34,7 +34,7 @@ const ll MAX = 2e5+5;
 #define VI(v)          ({ lp(I,0,v.size())v[I]=II; })
 #define VO(v)          ({ lp(I,0,v.size()){cout<<(I?" ":"")<<v[I];}}) 
 #define mset(a,v)      memset(a,v,sizeof(a)) //inisilation an array which name is a with all index value v
-#define nline          printf("\n")
+#define nl             '\n'
 #define PI             3.1415926535897932384626
 
 //debug
