@@ -18,7 +18,7 @@ int partitionOfArr(int arr[], int low, int high){
 }
 
 void quickSort(int arr[], int low, int high){
-    if(low<high){
+    if(low<=high){
         int pivot_position = partitionOfArr(arr,low,high);
 
         quickSort(arr,low,pivot_position-1);
