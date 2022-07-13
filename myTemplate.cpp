@@ -89,7 +89,8 @@ void IO()
     #endif
 
     #ifndef ONLINE_JUDGE
-    #define debug(x) cerr << #x <<" = "; _print(x); cerr << endl;
+    #define debug(x) cerr << #x <<" = "; 
+        _print(x); cerr << '\n';
     #else
     #define debug(x)
     #endif

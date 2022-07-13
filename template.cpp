@@ -95,18 +95,20 @@ void IO(){
 
     //input output, it will not execute in online judge
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
     #endif
 
     //output for debug in error.txt, it will not execute in online judge
     #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
+        freopen("Error.txt", "w", stderr);
     #endif
 
     //debug, it will not execute in online judge
     #ifndef ONLINE_JUDGE
-    #define debug(x) cerr << #x <<" = "; _print(x); cerr << endl;
+    #define debug(x) cerr << #x <<" = "; 
+        _print(x); 
+        cerr << '\n';
     #else
     #define debug(x)
     #endif
