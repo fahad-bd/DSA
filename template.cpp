@@ -14,6 +14,7 @@ const ll MAX = 2e5+5;
 #define pb                      push_back
 #define ppb                     pop_back
 #define mp                      make_pair
+#define PQ                      priority_queue
 #define fi                      first
 #define se                      second 
 #define all(x)                  x.begin(), x.end()
@@ -23,6 +24,8 @@ const ll MAX = 2e5+5;
 #define setbits                 __builtin_popcountll 
 #define zerobits                __builtin_ctzll 
 #define lcm(a,b)                a/__gcd(a,b)*b
+#define mset(a,v)               memset(a,v,sizeof(a))
+#define nl                      '\n'
 #define test                    int T; cin>>T; while(T--)
 #define lp(i,s,e)               for(int i=s;i<e;i++)
 #define lpr(i,s,e)              for(int i=e-1;i>=s;i--)
@@ -34,8 +37,6 @@ const ll MAX = 2e5+5;
 #define AO(a)                   ({ int n=sizeof(a)/sizeof(a[0]); lp(I,0,n){cout<<(I?" ":"")<<a[I];}})
 #define VI(v)                   ({ lp(I,0,v.size())v[I]=II; })
 #define VO(v)                   ({ lp(I,0,v.size()){cout<<(I?" ":"")<<v[I];}}) 
-#define mset(a,v)               memset(a,v,sizeof(a))
-#define nl                      '\n'
 #define PI                      3.1415926535897932384626
 
 //debug
