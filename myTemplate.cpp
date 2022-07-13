@@ -14,7 +14,6 @@ const ll MAX = 2e5+5;
 #define pb                      push_back
 #define ppb                     pop_back
 #define mp                      make_pair
-#define ins                     insert
 #define fi                      first
 #define se                      second 
 #define all(x)                  x.begin(), x.end()
@@ -23,6 +22,7 @@ const ll MAX = 2e5+5;
 #define sortall(x)              sort(all(x))
 #define setbits                 __builtin_popcountll 
 #define zerobits                __builtin_ctzll 
+#define lcm(a,b)                a/__gcd(a,b)*b
 #define test                    int T; cin>>T; while(T--)
 #define lp(i,s,e)               for(int i=s;i<e;i++)
 #define lpr(i,s,e)              for(int i=e-1;i>=s;i--)
