@@ -14,6 +14,7 @@ const ll MAX = 2e5+5;
 #define pb                      push_back
 #define ppb                     pop_back
 #define mp                      make_pair
+#define ins                     insert
 #define fi                      first
 #define se                      second 
 #define all(x)                  x.begin(), x.end()
