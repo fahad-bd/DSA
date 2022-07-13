@@ -18,9 +18,11 @@ const ll MAX = 2e5+5;
 #define fi                      first
 #define se                      second 
 #define all(x)                  x.begin(), x.end()
-#define rall(x)                 x.rbegin(), x.rend()
+#define allr(x)                 x.rbegin(), x.rend()
 #define sz(x)                   ((int)(x).size())
 #define sortall(x)              sort(all(x))
+#define sortallr(x)             sort(allr(x))
+#define revS(s)                 reverse(all(s))
 #define setbits                 __builtin_popcountll 
 #define zerobits                __builtin_ctzll 
 #define lcm(a,b)                a/__gcd(a,b)*b
