@@ -86,6 +86,14 @@ long long power(long long a, long long b){
     return ans;
 }
 
+//function for test palindrome or not
+bool palindrome(string s){
+    string st=s;
+    revS(st);
+    if(st==s)return true;
+    else return false;
+}
+
 //functon for input & output from text file
 void IO(){
     //Speed, it will execuite in online judge
@@ -106,9 +114,7 @@ void IO(){
 
     //debug, it will not execute in online judge
     #ifndef ONLINE_JUDGE
-    #define debug(x) cerr << #x <<" = "; 
-        _print(x); 
-        cerr << '\n';
+    #define debug(x) cerr << #x <<" = "; _print(x); cerr << '\n';
     #else
     #define debug(x)
     #endif
@@ -314,4 +320,9 @@ int main()
     cout<<endl;
 
     return 0;
+}
+
+void solve()
+{
+
 }

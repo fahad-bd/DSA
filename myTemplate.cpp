@@ -73,6 +73,13 @@ ll power(ll a, ll b){
     return ans;
 }
 
+bool palindrome(string s){
+    string st=s;
+    revS(st);
+    if(st==s)return true;
+    else return false;
+}
+
 void IO()
 {
     ios_base::sync_with_stdio(false);
@@ -89,8 +96,7 @@ void IO()
     #endif
 
     #ifndef ONLINE_JUDGE
-    #define debug(x) cerr << #x <<" = "; 
-        _print(x); cerr << '\n';
+    #define debug(x) cerr << #x <<" = "; _print(x); cerr << '\n';
     #else
     #define debug(x)
     #endif
