@@ -87,12 +87,12 @@ void IO()
     cout.tie(NULL);
 
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
     #endif
 
     #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
+        freopen("Error.txt", "w", stderr);
     #endif
 
     #ifndef ONLINE_JUDGE
