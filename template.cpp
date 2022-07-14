@@ -94,6 +94,25 @@ bool palindrome(string s){
     else return false;
 }
 
+//function for prime number
+//in solve function first need to call prime_sieve(n)
+//then need to examine isPrime[i] prime or not with loop
+vector<ll>isPrime(5000011,1); 
+void prime_sieve(ll n){
+    isPrime[0]=0, isPrime[1]=0;
+    for(ll i=2; i<=n; i+=2){
+        if(i==2)continue;
+        isPrime[i]=0;
+    }
+    for(ll i=3; i*i<=n; i+=2){
+        if(isPrime[i]==1){
+            for(ll j=i*i; j<=n; j+=2*i){
+                isPrime[j]=0;
+            }
+        }
+    }
+}
+
 //functon for input & output from text file
 void IO(){
     //Speed, it will execuite in online judge

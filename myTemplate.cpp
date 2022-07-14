@@ -80,6 +80,22 @@ bool palindrome(string s){
     else return false;
 }
 
+vector<ll>isPrime(5000011,1); 
+void prime_sieve(ll n){
+    isPrime[0]=0, isPrime[1]=0;
+    for(ll i=2; i<=n; i+=2){
+        if(i==2)continue;
+        isPrime[i]=0;
+    }
+    for(ll i=3; i*i<=n; i+=2){
+        if(isPrime[i]==1){
+            for(ll j=i*i; j<=n; j+=2*i){
+                isPrime[j]=0;
+            }
+        }
+    }
+}
+
 void IO()
 {
     ios_base::sync_with_stdio(false);
